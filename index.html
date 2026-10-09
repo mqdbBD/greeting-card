@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تهنئة | بطاقات وعبارات للمناسبات</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;800&family=Reem+Kufi:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --emerald:#0e5e4e;
+  --emerald-dark:#083f35;
+  --gold:#c9a24b;
+  --gold-light:#f3e2ac;
+  --cream:#fdfaf3;
+  --ink:#1f2a26;
+  --muted:#6b7a75;
+  --card-radius:22px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Cairo',sans-serif;
+  color:var(--ink);
+  min-height:100vh;
+  background:
+    radial-gradient(circle at 12% 18%, #e9c2cc55 0 14px, transparent 15px),
+    radial-gradient(circle at 88% 12%, #cbb37f55 0 12px, transparent 13px),
+    radial-gradient(circle at 82% 82%, #bcd9e555 0 16px, transparent 17px),
+    radial-gradient(circle at 8% 78%, #e9c2cc44 0 13px, transparent 14px),
+    radial-gradient(#d8c49a 1px, transparent 1.2px),
+    linear-gradient(135deg,#f6f0e4 0%,#f7e8e6 32%,#e6eef2 62%,#f6f0e4 100%);
+  background-size:auto,auto,auto,auto,26px 26px,cover;
+  background-attachment:fixed;
+}
+body::before{
+  content:"";
+  position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(460px 300px at 85% -40px, #e9c2cc33, transparent 70%),
+    radial-gradient(460px 300px at -60px 30%, #bcd9e533, transparent 70%),
+    radial-gradient(440px 300px at 50% 110%, #cbb37f2e, transparent 70%);
+}
+main,header,footer{position:relative;z-index:1}
+header{
+  background:linear-gradient(120deg,#a68c5b 0%,#c99aa6 45%,#8fb9cc 100%);
+  color:#fff;
+  padding:34px 18px 90px;
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+}
+header::before{
+  content:"";
+  position:absolute;inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23ffffff2e' stroke-width='1.2'%3E%3Cpath d='M60 10 L70 50 L110 60 L70 70 L60 110 L50 70 L10 60 L50 50 Z'/%3E%3Ccircle cx='18' cy='18' r='5'/%3E%3Ccircle cx='102' cy='98' r='6'/%3E%3C/g%3E%3C/svg%3E");
+  opacity:.5;
+}
+header h1{margin:0;font-size:clamp(28px,5vw,46px);font-weight:800;position:relative}
+header h1 span{color:var(--gold-light)}
+header p{margin:10px auto 0;max-width:620px;color:#e8f3ef;font-size:clamp(14px,2.5vw,18px);position:relative;line-height:1.8}
+.badge{display:inline-block;background:#ffffff22;border:1px solid #ffffff44;padding:6px 16px;border-radius:100px;font-size:13px;margin-bottom:12px;position:relative}
+main{max-width:1020px;margin:-60px auto 0;padding:0 16px 60px}
+.grid{display:grid;gap:18px}
+@media(min-width:900px){.grid.two{grid-template-columns:420px 1fr}}
+.panel{background:#fffdf8;border-radius:var(--card-radius);box-shadow:0 18px 50px #a68c5b22;border:1px solid #e6d9bd;padding:22px}
+.panel h2{margin:0 0 6px;font-size:20px}
+.panel .sub{margin:0 0 18px;color:var(--muted);font-size:14px;line-height:1.7}
+label{font-weight:700;font-size:14px;display:block;margin:14px 0 6px}
+input,select,textarea{width:100%;border:2px solid #e7ddc2;background:#fffdf6;border-radius:14px;padding:12px 14px;font-family:inherit;font-size:15px;outline:none;transition:.2s}
+input:focus,select:focus,textarea:focus{border-color:var(--emerald);box-shadow:0 0 0 4px #0e5e4e15}
+textarea{min-height:84px;resize:vertical;line-height:1.7}
+.hint{font-size:12.5px;color:var(--muted);background:#f7f1dd;border-radius:10px;padding:8px 12px;margin-top:8px;line-height:1.7}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.btn{border:none;cursor:pointer;font-family:inherit;font-weight:800;border-radius:14px;padding:14px 18px;font-size:16px;transition:.2s;width:100%}
+.btn-main{background:linear-gradient(135deg,#a68c5b,#c99aa6 55%,#7fa8bc);color:#fff;margin-top:18px;box-shadow:0 10px 24px #a68c5b40}
+.btn-main:hover{transform:translateY(-1px);box-shadow:0 14px 28px #0e5e4e45}
+.btn-row{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.btn-copy{background:#fff;border:2px solid var(--emerald);color:var(--emerald);flex:1;min-width:140px}
+.btn-wa{background:#25D366;color:#fff;flex:1;min-width:140px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.btn-ghost{background:#f4edda;color:#6a5c2e;flex:1;min-width:120px}
+.btn-copy:hover,.btn-ghost:hover{background:#eef6f2}
+/* بطاقة المعاينة */
+.card-stage{min-height:100%}
+.greeting-card{border-radius:20px;padding:34px 24px;text-align:center;color:#fff;position:relative;overflow:hidden;min-height:380px;display:flex;flex-direction:column;justify-content:center;align-items:center;transition:.3s}
+.greeting-card::after{content:"";position:absolute;inset:12px;border:1.5px solid #ffffff66;border-radius:14px;pointer-events:none}
+.greeting-card::before{content:"";position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23ffffff30' %3E%3Ccircle cx='40' cy='40' r='28'/%3E%3Ccircle cx='40' cy='40' r='3'/%3E%3C/g%3E%3C/svg%3E");opacity:.6}
+.occ-زواج{background:linear-gradient(135deg,#7a2e4d,#c65d7b 55%,#e8a0b1)}
+.occ-عيد{background:linear-gradient(135deg,#0e5e4e,#1a9c7c 55%,#c9a24b)}
+.occ-تخرج{background:linear-gradient(135deg,#1a2340,#344a8a 55%,#6a8bd4)}
+.occ-مولود{background:linear-gradient(135deg,#4a90a4,#8fd0d8 60%,#f7c8d0);color:#12333d !important}
+.occ-مولود::after{border-color:#12333d44}
+.occ-نجاح{background:linear-gradient(135deg,#7a5a12,#c9a24b 55%,#f3e2ac);color:#3a2d05 !important}
+.occ-نجاح::after{border-color:#3a2d0555}
+.occ-ترقية{background:linear-gradient(135deg,#2b2b3a,#5a5a8a 55%,#9a9ad4)}
+.occ-شفاء{background:linear-gradient(135deg,#3a7d6a,#7cc8a8 60%,#e6f5ec);color:#0c3a2c !important}
+.occ-شفاء::after{border-color:#0c3a2c44}
+.card-occ{font-size:13px;background:#ffffff35;border:1px solid #ffffff66;padding:5px 16px;border-radius:100px;margin-bottom:14px;position:relative;z-index:1}
+.occ-مولود .card-occ,.occ-نجاح .card-occ,.occ-شفاء .card-occ{background:#00000012;border-color:#00000022}
+.card-title{font-family:'Amiri',serif;font-size:clamp(26px,4.5vw,36px);font-weight:700;margin:0 0 12px;line-height:1.5;z-index:1}
+.card-text{font-family:'Amiri',serif;font-size:clamp(17px,3vw,21px);line-height:2;max-width:520px;margin:0;z-index:1;white-space:pre-line}
+.card-name{margin-top:16px;font-family:'Reem Kufi',sans-serif;font-size:18px;letter-spacing:.5px;z-index:1;background:#00000022;padding:6px 22px;border-radius:100px}
+.card-footer{margin-top:10px;font-size:12px;opacity:.85;z-index:1}
+/* مناسبات جاهزة */
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.chip{border:2px solid #e7ddc2;background:#fffdf6;border-radius:100px;padding:7px 14px;font-size:13.5px;font-weight:700;cursor:pointer}
+.chip.active{background:var(--emerald);color:#fff;border-color:var(--emerald)}
+.phrases{margin-top:14px;display:grid;gap:10px}
+.phrase{background:#fffdf6;border:1px dashed #cbbf98;border-radius:12px;padding:12px 14px;font-size:14.5px;line-height:1.9;cursor:pointer;transition:.2s}
+.phrase:hover{background:#fef6df;border-style:solid}
+.section-title{margin:34px 0 14px;text-align:center}
+.section-title h3{margin:0;font-size:22px}
+.section-title p{margin:6px 0 0;color:var(--muted);font-size:14px}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px}
+@media(min-width:700px){.gallery{grid-template-columns:repeat(4,1fr)}}
+.mini{border-radius:16px;padding:20px 12px;text-align:center;color:#fff;font-weight:800;cursor:pointer;border:3px solid transparent;transition:.2s;font-size:15px;line-height:1.6}
+.mini small{display:block;font-weight:400;font-size:12px;opacity:.9;margin-top:4px}
+.mini.active{border-color:var(--ink);transform:scale(1.02)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 22px;border-radius:100px;font-size:14px;opacity:0;transition:.3s;z-index:50}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:20px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="badge">موقع عربي • متجاوب مع الجوال • مجاني</div>
+  <h1>صانع <span>بطاقات التهنئة</span> للمناسبات</h1>
+  <p>اختر المناسبة والأسلوب، اكتب الاسم، وأضف ملاحظة دقيقة — وسنولّد لك عبارة أنيقة مع تصميم جاهز للنسخ والمشاركة عبر واتساب.</p>
+</header>
+
+<main>
+  <div class="grid two">
+    <div class="panel">
+      <h2>أنشئ تهنئتك</h2>
+      <p class="sub">املأ الحقول التالية ثم اضغط زر التوليد. يمكنك الضغط على أي عبارة جاهزة لنسخها للبطاقة.</p>
+
+      <label for="name">اسم الشخص المُهنَّأ</label>
+      <input id="name" type="text" placeholder="مثال: أحمد، نورة، أبو محمد...">
+
+      <div class="row">
+        <div>
+          <label for="occasion">المناسبة</label>
+          <select id="occasion">
+            <option value="زواج">زواج</option>
+            <option value="عيد">عيد</option>
+            <option value="تخرج" selected>تخرج</option>
+            <option value="مولود">مولود</option>
+            <option value="نجاح">نجاح</option>
+            <option value="ترقية">ترقية</option>
+            <option value="شفاء">شفاء</option>
+          </select>
+        </div>
+        <div>
+          <label for="style">الأسلوب</label>
+          <select id="style">
+            <option value="رسمي">رسمي</option>
+            <option value="شعري">شعري</option>
+            <option value="مرح">مرح</option>
+            <option value="مختصر">مختصر</option>
+          </select>
+        </div>
+      </div>
+
+      <label for="extra">توضيح إضافي (اختياري)</label>
+      <textarea id="extra" placeholder="مثال: اكتب تهنئة بأسلوب مرح لأحمد بمناسبة التخرج في سطرين."></textarea>
+      <div class="hint">نصيحة: حدد عدد الأسطر أو الطول مثل «في سطرين»، «سطر واحد»، «قصيرة جداً»، «أبيات شعرية»، وسنلتزم به قدر الإمكان.</div>
+
+      <button class="btn btn-main" onclick="generate(true)">توليد البطاقة</button>
+      <div class="btn-row">
+        <button class="btn btn-copy" onclick="copyText()">نسخ العبارة</button>
+        <a class="btn btn-wa" id="waBtn" href="#" target="_blank" rel="noopener">مشاركة واتساب</a>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" onclick="generate(true)">توليد صياغة أخرى</button>
+        <button class="btn btn-ghost" onclick="downloadCard()">تحميل البطاقة صورة</button>
+      </div>
+    </div>
+
+    <div class="panel card-stage">
+      <h2>معاينة البطاقة</h2>
+      <p class="sub">هكذا ستظهر تهنئتك — تصميم يتغير تلقائياً حسب المناسبة.</p>
+      <div id="card" class="greeting-card occ-تخرج">
+        <div class="card-occ" id="cOcc">تخرج • أسلوب مرح</div>
+        <h3 class="card-title" id="cTitle">ألف مبروك التخرج!</h3>
+        <p class="card-text" id="cText">...</p>
+        <div class="card-name" id="cName">أحمد</div>
+        <div class="card-footer">صُنعت بحب عبر صانع بطاقات التهنئة</div>
+      </div>
+
+      <div class="chips" id="occChips"></div>
+      <div class="phrases" id="phrases"></div>
+    </div>
+  </div>
+
+  <div class="section-title">
+    <h3>تصاميم حسب المناسبة</h3>
+    <p>اضغط على أي تصميم لاختياره وتوليد عبارة له فوراً</p>
+  </div>
+  <div class="gallery" id="gallery"></div>
+</main>
+
+<footer>صانع بطاقات التهنئة — عبارات عربية أنيقة لجميع مناسباتكم</footer>
+<div class="toast" id="toast">تم النسخ بنجاح</div>
+
+<script>
+const TITLES = {
+  "زواج":"زواج مبارك!",
+  "عيد":"عيد مبارك!",
+  "تخرج":"ألف مبروك التخرج!",
+  "مولود":"مبارك المولود!",
+  "نجاح":"مبارك النجاح!",
+  "ترقية":"مبارك الترقية!",
+  "شفاء":"الحمد لله على السلامة!"
+};
+
+const DB = {
+"زواج":{
+ "رسمي":[
+  "بكل معاني المودة والتقدير، نتقدم بأحر التهاني لـ {name} بمناسبة الزواج المبارك، سائلين الله أن يبارك له ويجمع بينه وبين شريك حياته في خير وسعادة دائمة.",
+  "يسعدنا أن نشارك {name} فرحة الزفاف المبارك، ونتمنى له حياة زوجية ملؤها المودة والرحمة والاستقرار.",
+  "خالص التهاني وأصدق التبريكات لـ {name} بمناسبة عقد القران، بارك الله لكما وبارك عليكما وجمع بينكما في خير."
+ ],
+ "شعري":[
+  "يا فرحةَ العمرِ أهلاً قد أتيتِ لنا\nبارك الإله لـ {name} زفافَهُ وهنَا\nعيشوا على الحبِّ دوماً في سعادةِ\nودامتِ الأفراحُ في دربكم سكنَا",
+  "غنّتْ لكِ الأطيارُ لحنَ الهنا\nيا {name} يا عريسَ الحُسنِ والمُنى\nجعل الله أيامكم أفراحاً\nوعمرَكم بالحبِّ دوماً يُبنى",
+  "مباركٌ زواجك يا {name} والسعدُ لاحْ\nوالوردُ فاحَ والفرحُ في القلبِ صاحْ\nأسأل الله لكَ عمراً سعيداً هانئاً\nمع شريكٍ يملأ الدنيا نجاحْ"
+ ],
+ "مرح":[
+  "مبروك يا {name}! أخيراً دخلت القفص الذهبي بإرادتك الكاملة… نتمنى لك شهر عسل طويل وغسيل صحون قصير!",
+  "يا {name} الزواج مثل الواي فاي: الاتصال سهل لكن كلمة السر هي الصبر والحب! مبارك يا بطل.",
+  "مبروك الزواج يا {name}! من اليوم رسمياً: آخر قطعة حلا ليست لك وحدك. شارك بحب!"
+ ],
+ "مختصر":[
+  "مبارك الزواج يا {name}، بارك الله لكما وجمع بينكما في خير.",
+  "ألف مبروك يا {name}، زواج سعيد وحياة مليئة بالحب.",
+  "تهانينا القلبية يا {name}، دام الفرح في داركم."
+ ]},
+"عيد":{
+ "رسمي":[
+  "يسرنا أن نتقدم لـ {name} بأصدق التهاني بمناسبة العيد المبارك، أعاده الله عليكم بالخير واليمن والبركات.",
+  "كل عام و{name} بخير، تقبل الله طاعتكم وأدام عليكم الفرح والسرور في هذا العيد المبارك.",
+  "بمناسبة حلول العيد، نبعث لـ {name} أطيب التمنيات بدوام الصحة والسعادة وعيد سعيد مبارك."
+ ],
+ "شعري":[
+  "هلَّ العيدُ والفرحُ بانْ\nو{name} في القلبِ له مكانْ\nكل عامٍ وأنتَ بخيرٍ\nيا أغلى الناسِ والخلّانْ",
+  "عيدٌ سعيدٌ يا {name} أقبلْ\nبالخيرِ والبشرى تهلّلْ\nجعل الله أيامك عيداً\nوفرحُ قلبكَ لا يتبدّلْ",
+  "يا عيدُ بشّرْ {name} بالهنا\nواجعلْ له الفرحةَ سكنَا\nتقبّلَ اللهُ منهُ طاعةً\nوأدامَ عزَّهُ ومَنَّا"
+ ],
+ "مرح":[
+  "عيد مبارك يا {name}! العيدية علينا… أقصد عليك! لا تهرب، نحن في الانتظار مع الحلا والقهوة.",
+  "يا {name}، العيد بدونك مثل الكبسة بدون لحم — ناقص! تعال عايدنا بسرعة قبل ما يخلص الحلا.",
+  "كل عام وأنت بخير يا {name}! نصيحة العيد: كُلْ كثيراً، اضحك أكثر، ونام بعدها كأنك أنجزت مشروعاً وطنياً."
+ ],
+ "مختصر":[
+  "عيد مبارك يا {name}، كل عام وأنت بخير.",
+  "تقبل الله طاعتك يا {name} وعيد سعيد عليك وعلى أحبابك.",
+  "كل عام و{name} بألف خير وسعادة."
+ ]},
+"تخرج":{
+ "رسمي":[
+  "بكل فخر واعتزاز، نهنئ {name} بمناسبة التخرج، متمنين له مستقبلاً مشرقاً مليئاً بالنجاحات والإنجازات.",
+  "خالص التهاني لـ {name} على هذا الإنجاز الأكاديمي المتميز، سائلين الله أن ينفع به علمه ووطنه.",
+  "نبارك لـ {name} تخرجه المستحق بعد سنوات من الجد والاجتهاد، ونسأل الله له التوفيق في حياته العملية."
+ ],
+ "شعري":[
+  "رفعتَ الرأسَ يا {name} عاليَا\nبالتخرجِ صرتَ للنجمِ مُواليَا\nسهرتَ الليالي ونلتَ المُنى\nفمباركٌ لكَ المجدُ الغاليَا",
+  "يا فرحةَ التخرجِ هلّي وزيدي\n{name} نالَ المجدَ بالتأكيدِ\nتعبَ واجتهدَ حتى تخرّجَ\nفاستحقَّ التهنئةَ والتمجيدِ",
+  "تخرّجتَ يا {name} والمجدُ ناداكْ\nوالعلمُ نورٌ في دربِ مسعاكْ\nإلى العلا سِرْ ولا تتوقفْ\nفالمستقبلُ الزاهرُ ينتظرُ خطاكْ"
+ ],
+ "مرح":[
+  "مبروك التخرج يا {name}! رسمياً انتهت حجج «عندي اختبار» للهروب من العزايم… نراك في سوق العمل!",
+  "يا {name} تخرجت أخيراً! الشهادة في يدك والحياة الحقيقية أمامك — استمتع بالعطلة قبل ما تبدأ الفواتير!",
+  "ألف مبروك يا دافور {name}! من اليوم تقدر تنام بدون منبه… لمدة أسبوع فقط ثم يبدأ الدوام."
+ ],
+ "مختصر":[
+  "مبروك التخرج يا {name}، ومنها للأعلى بإذن الله.",
+  "ألف مبروك يا {name}، تخرج مستحق وبداية موفقة.",
+  "فخورون بك يا {name}، مبارك التخرج!"
+ ]},
+"مولود":{
+ "رسمي":[
+  "ببالغ الفرح والسرور، نبارك لـ {name} قدوم المولود الجديد، جعله الله من مواليد السعادة وقرة عين لوالديه.",
+  "أحر التهاني لـ {name} بمناسبة المولود، بارك الله فيه وأنبته نباتاً حسناً ورزقكم بره.",
+  "يسعدنا تهنئة {name} بالمولود الجديد، نسأل الله أن يحفظه ويجعله من الصالحين البارين."
+ ],
+ "شعري":[
+  "هلَّتْ بشائرُ الفرحِ لداركم\nومولودُ الهنا نوّرَ صغاركم\nيا {name} مباركٌ ما أتاكم\nجعلهُ اللهُ قرةً لأبصاركم",
+  "أهلاً بمن أتى ونوّرَ البيتْ\nيا {name} الفرحةُ في قلبكَ حبيتْ\nجعلهُ ربي من عبادهِ الصالحينْ\nومن حفظةِ كتابهِ الغاليينْ",
+  "مباركٌ يا {name} المولودُ الجديدْ\nجعلهُ اللهُ لكَ عمراً مديدْ\nيتربى بعزكم ودلالكم\nويكونُ لكم سنداً أكيدْ"
+ ],
+ "مرح":[
+  "مبروك المولود يا {name}! استعد رسمياً لوظيفة جديدة بدوام كامل: سهر + حفاضات + حب لا ينتهي!",
+  "يا {name}، وصل البيبي وبدأت المغامرة! النوم؟ انساه مؤقتاً… لكن الضحكة الأولى تنسيك كل التعب.",
+  "مبارك يا {name}! صار عندك مدير صغير جديد يصحيك الفجر بدون منبه. الله يعينك ويحفظه لك!"
+ ],
+ "مختصر":[
+  "مبارك المولود يا {name}، يتربى بعزكم ودلالكم.",
+  "ألف مبروك يا {name}، جعله الله قرة عين لكم.",
+  "تهانينا يا {name}، بارك الله في الموهوب وشكرتم الواهب."
+ ]},
+"نجاح":{
+ "رسمي":[
+  "نزف أجمل التهاني لـ {name} بمناسبة النجاح والتفوق، متمنين له مزيداً من التقدم والتميز.",
+  "بكل اعتزاز نهنئ {name} على هذا النجاح المستحق، ثمرة الجد والمثابرة، وإلى مزيد من الإنجازات.",
+  "مبارك النجاح يا {name}، لقد أثبت أن الطموح والعمل الجاد يصنعان المستحيل."
+ ],
+ "شعري":[
+  "نجحتَ يا {name} والفرحُ عمّْ\nوالكلُّ لكَ بالتهاني يهتمْ\nهذا حصادُ الجدِّ والتعبِ\nفإلى العلا دائماً تقدّمْ",
+  "يا {name} يا نجماً قد سطعْ\nبالنجاحِ والتفوقِ لمعْ\nبارك اللهُ في خطاكَ\nومن نجاحٍ لنجاحٍ ارتفعْ",
+  "فرحةُ النجاحِ ما أجملها\n{name} نالها واستحقها\nسهرَ وتعبَ حتى وصلْ\nفمباركٌ لهُ ما حققها"
+ ],
+ "مرح":[
+  "مبروك النجاح يا {name}! العزيمة اللي تذاكر فيها تستاهل وسام… والحين وقت الاحتفال والحلا علينا، أقصد عليك!",
+  "يا وحش يا {name}! نجحت وكسرت الدنيا! الدرجات تشهد أن السهر على المسلسلات… أقصد المذاكرة، جاب نتيجة!",
+  "مبروك يا {name}! نجاحك هذا يثبت أن «بكرة أذاكر» أحياناً تنجح. لا تجربها كثيراً!"
+ ],
+ "مختصر":[
+  "مبروك النجاح يا {name}، تستاهل كل خير.",
+  "ألف مبروك يا بطل {name}، ومنها للأعلى.",
+  "نجاح مستحق يا {name}، فخورون بك!"
+ ]},
+"ترقية":{
+ "رسمي":[
+  "نتقدم بخالص التهاني لـ {name} بمناسبة الترقية المستحقة، متمنين له دوام التوفيق والسداد في مهامه الجديدة.",
+  "مبارك الترقية يا {name}، لقد نلتها بجدارة وكفاءة، ونسأل الله أن تكون عوناً لك على مزيد من العطاء.",
+  "يسعدنا تهنئة {name} على نيله الثقة الغالية بالترقية، ونتمنى له مستقبلاً مهنياً زاهراً."
+ ],
+ "شعري":[
+  "ترقّيتَ يا {name} فاستحققتَ الثنا\nبجدٍّ وكدٍّ بلغتَ المُنى\nمباركٌ لكَ المنصبُ الجديدُ\nوإلى العلا سِرْ دائماً لا ونى",
+  "يا {name} الفرحةُ اليومَ اكتملتْ\nبترقيةٍ طالما انتظرتْ\nتستاهلُ الخيرَ يا كفؤُ\nوخطاكَ للنجاحِ استمرتْ",
+  "مباركٌ يا {name} هذا الصعودْ\nفأنتَ للتميزِ دوماً ودودْ\nعملتَ بجدٍّ فنلتَ الجزاءْ\nومنها لأعلى بإذنِ الودودْ"
+ ],
+ "مرح":[
+  "مبروك الترقية يا {name}! زيادة راتب تعني زيادة عزايم… نحن أول المدعوين، لا تنسَ!",
+  "يا {name}، ترقيت رسمياً! الآن اجتماعات أكثر ومسؤوليات أكبر… لكن الراتب يعوّض! مبارك يا مدير!",
+  "مبارك يا {name}! من اليوم لازم تنادى بـ «أستاذ» مع هيبة. الكرسي الجديد يليق بك!"
+ ],
+ "مختصر":[
+  "مبارك الترقية يا {name}، تستاهل كل خير.",
+  "ألف مبروك المنصب الجديد يا {name}، بالتوفيق.",
+  "ترقية مستحقة يا {name}، وإلى أعلى المراتب."
+ ]},
+"شفاء":{
+ "رسمي":[
+  "نسأل الله العظيم أن يمنّ على {name} بالشفاء العاجل ودوام الصحة والعافية، والحمد لله على سلامته.",
+  "خالص تمنياتنا لـ {name} بالشفاء التام، طهور إن شاء الله، وأجر وعافية بإذن الله.",
+  "الحمد لله على سلامة {name}، نسأل الله أن يتم عليه نعمة الصحة ولا يريه مكروهاً."
+ ],
+ "شعري":[
+  "يا {name} شفاكَ اللهُ وعافاكْ\nوألبسكَ من الصحةِ ما هنّاكْ\nطهورٌ وما ترى بأساً\nودعواتُ الأحبةِ ترعاكْ",
+  "الحمدُ للهِ على سلامتكْ\nيا {name} يا غالي ما نسيتكْ\nندعو لكَ بالشفاءِ العاجلِ\nوصحةٍ تدومُ يا حبيبنا لكْ",
+  "أجرٌ وعافيةٌ يا {name} بإذنِ اللهْ\nما تشوفُ شرٍّ وطهورٌ إن شاءَ اللهْ\nقلوبنا معكَ بالدعاءِ دائماً\nواللهُ يشفيكَ ويحميكَ ويرعاكْ"
+ ],
+ "مرح":[
+  "الحمد لله على السلامة يا {name}! المستشفى اشتاق لك… لا، أمزح! المهم أنك بخير، والشوربة والحلا بانتظارك.",
+  "يا {name}، سمعنا أنك صرت مشهور في المستشفى من كثر الزيارات! يلا شد حيلك وارجع لنا بسرعة، الشلة ناقصة بدونك.",
+  "سلامتك يا بطل {name}! خذها إجازة رسمية للراحة والنوم والأكل الصحي… وبعدها ترجع أقوى من قبل!"
+ ],
+ "مختصر":[
+  "الحمد لله على السلامة يا {name}، طهور إن شاء الله.",
+  "سلامتك يا {name}، أجر وعافية بإذن الله.",
+  "شفاك الله وعافاك يا {name}، وما تشوف شر."
+ ]}
+};
+
+const OCC_DESC = {
+ "زواج":"فرحة العمر والبدايات الجميلة",
+ "عيد":"فرحة العيد ولمّة الأحباب",
+ "تخرج":"حصاد الجد والاجتهاد",
+ "مولود":"فرحة جديدة نوّرت البيت",
+ "نجاح":"ثمرة الطموح والمثابرة",
+ "ترقية":"جدارة تستحق الاحتفاء",
+ "شفاء":"دعوات بالصحة والعافية"
+};
+
+let currentText = "";
+let usedIndex = {};
+
+function getName(){
+  const v = document.getElementById('name').value.trim();
+  return v || "الغالي";
+}
+function parseExtra(){
+  const t = document.getElementById('extra').value || "";
+  const out = {lines:null, short:false};
+  if(/سطرين|2 سطر|سطرين فقط/.test(t)) out.lines = 2;
+  else if(/سطر واحد|سطر وحيد|سطر فقط|سطر فرد/.test(t)) out.lines = 1;
+  else if(/ثلاث|3 أسطر|٣/.test(t)) out.lines = 3;
+  if(/مختصر|قصير|قصيرة جد|سطر/.test(t)) out.short = true;
+  if(/طويل|مفصّل|مفصل/.test(t)) out.short = false;
+  return out;
+}
+function pick(arr, key){
+  if(!(key in usedIndex)) usedIndex[key]=-1;
+  usedIndex[key]=(usedIndex[key]+1)%arr.length;
+  // تنويع عشوائي خفيف عند التوليد المتكرر
+  if(document.getElementById('extra').value.trim()===""){
+    return arr[Math.floor(Math.random()*arr.length)];
+  }
+  return arr[usedIndex[key]];
+}
+function applyLineLimit(text, lines){
+  if(!lines) return text;
+  // قسّم على الأسطر الشعرية أو الجمل
+  let parts = text.split(/\n/).map(s=>s.trim()).filter(Boolean);
+  if(parts.length<=1) parts = text.split(/(?<=[.!؟!])\s+|\.\s+/).map(s=>s.trim()).filter(Boolean);
+  if(parts.length<=lines) return text;
+  return parts.slice(0,lines).join(lines>1?"\n":" ");
+}
+function generate(fromBtn){
+  const occ = document.getElementById('occasion').value;
+  let style = document.getElementById('style').value;
+  const extra = document.getElementById('extra').value.trim();
+  // لو المستخدم كتب الأسلوب في خانة التوضيح، نلتقطه
+  if(/شعري|أبيات|قصيدة|شعر/.test(extra)) style="شعري";
+  else if(/مرح|مضحك|طريف|فكاه/.test(extra)) style="مرح";
+  else if(/رسمي|فصيح/.test(extra)) style="رسمي";
+  else if(/مختصر|قصير/.test(extra) && !/سطرين/.test(extra)) style = style==="شعري"?style:"مختصر";
+
+  const name = getName();
+  const arr = DB[occ][style] || DB[occ]["رسمي"];
+  let phrase = pick(arr, occ+"_"+style);
+  phrase = phrase.split("{name}").join(name);
+
+  const parsed = parseExtra();
+  if(parsed.lines) phrase = applyLineLimit(phrase, parsed.lines);
+  else if(parsed.short && style!=="مختصر" && phrase.length>160){
+    // اختصار ذكي: أول جملتين
+    phrase = applyLineLimit(phrase, 2);
+  }
+
+  currentText = phrase;
+  document.getElementById('cText').innerText = phrase;
+  document.getElementById('cTitle').innerText = TITLES[occ];
+  document.getElementById('cOcc').innerText = occ + " • أسلوب " + style;
+  document.getElementById('cName').innerText = name;
+  const card = document.getElementById('card');
+  card.className = "greeting-card occ-"+occ;
+  updateWA();
+  renderPhrases();
+  syncChips();
+  if(fromBtn) toast("تم توليد بطاقتك بنجاح");
+}
+function updateWA(){
+  const text = `${document.getElementById('cTitle').innerText}\n${currentText}\n— ${getName()}`;
+  document.getElementById('waBtn').href = "https://wa.me/?text=" + encodeURIComponent(text);
+}
+async function copyText(){
+  if(!currentText) generate(false);
+  try{
+    await navigator.clipboard.writeText(`${document.getElementById('cTitle').innerText}\n${currentText}`);
+    toast("تم نسخ العبارة بنجاح");
+  }catch(e){
+    const ta=document.createElement('textarea');
+    ta.value=currentText;document.body.appendChild(ta);ta.select();
+    document.execCommand('copy');ta.remove();
+    toast("تم نسخ العبارة بنجاح");
+  }
+}
+function toast(msg){
+  const t=document.getElementById('toast');
+  t.innerText=msg;t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2200);
+}
+function renderPhrases(){
+  const occ=document.getElementById('occasion').value;
+  const style=document.getElementById('style').value;
+  const box=document.getElementById('phrases');
+  const name=getName();
+  box.innerHTML="";
+  const title=document.createElement('div');
+  title.style.cssText="font-weight:800;font-size:14px;color:#0e5e4e";
+  title.innerText="عبارات جاهزة — اضغط لاعتمادها في البطاقة:";
+  box.appendChild(title);
+  DB[occ][style].forEach(p=>{
+    const d=document.createElement('div');
+    d.className="phrase";
+    d.innerText=p.split("{name}").join(name);
+    d.onclick=()=>{
+      currentText=d.innerText;
+      document.getElementById('cText').innerText=currentText;
+      updateWA();toast("تم اعتماد العبارة في البطاقة");
+    };
+    box.appendChild(d);
+  });
+}
+function syncChips(){
+  const occ=document.getElementById('occasion').value;
+  document.querySelectorAll('#occChips .chip').forEach(c=>{
+    c.classList.toggle('active', c.dataset.v===occ);
+  });
+  document.querySelectorAll('#gallery .mini').forEach(m=>{
+    m.classList.toggle('active', m.dataset.v===occ);
+  });
+}
+function buildChips(){
+  const occs=Object.keys(DB);
+  const box=document.getElementById('occChips');
+  box.innerHTML="";
+  occs.forEach(o=>{
+    const b=document.createElement('button');
+    b.className="chip";b.dataset.v=o;b.innerText=o;
+    b.onclick=()=>{document.getElementById('occasion').value=o;generate(false);};
+    box.appendChild(b);
+  });
+  const g=document.getElementById('gallery');
+  g.innerHTML="";
+  occs.forEach(o=>{
+    const d=document.createElement('div');
+    d.className="mini occ-"+o;d.dataset.v=o;
+    d.innerHTML=`${TITLES[o]}<small>${OCC_DESC[o]}</small>`;
+    d.onclick=()=>{document.getElementById('occasion').value=o;generate(false);window.scrollTo({top:0,behavior:'smooth'});};
+    g.appendChild(d);
+  });
+}
+function downloadCard(){
+  // تحويل البطاقة إلى صورة عبر canvas بسيط
+  const occ=document.getElementById('occasion').value;
+  const title=document.getElementById('cTitle').innerText;
+  const canvas=document.createElement('canvas');
+  canvas.width=800;canvas.height=1000;
+  const ctx=canvas.getContext('2d');
+  const grads={
+    "زواج":["#7a2e4d","#e8a0b1"],"عيد":["#0e5e4e","#c9a24b"],
+    "تخرج":["#1a2340","#6a8bd4"],"مولود":["#4a90a4","#f7c8d0"],
+    "نجاح":["#7a5a12","#f3e2ac"],"ترقية":["#2b2b3a","#9a9ad4"],
+    "شفاء":["#3a7d6a","#e6f5ec"]
+  };
+  const g=ctx.createLinearGradient(0,0,800,1000);
+  g.addColorStop(0,grads[occ][0]);g.addColorStop(1,grads[occ][1]);
+  ctx.fillStyle=g;ctx.fillRect(0,0,800,1000);
+  ctx.strokeStyle="#ffffffaa";ctx.lineWidth=3;ctx.strokeRect(30,30,740,940);
+  ctx.fillStyle="#fff";ctx.textAlign="center";
+  ctx.font="bold 56px Cairo, sans-serif";
+  ctx.fillText(title,400,220);
+  ctx.font="34px Amiri, serif";
+  wrapText(ctx,currentText,400,320,660,58);
+  ctx.font="bold 30px Cairo, sans-serif";
+  ctx.fillText("— "+getName()+" —",400,880);
+  const a=document.createElement('a');
+  a.download="tahneea-"+occ+".png";a.href=canvas.toDataURL();a.click();
+  toast("تم تحميل البطاقة كصورة");
+}
+function wrapText(ctx,text,x,y,maxW,lh){
+  const lines=[];
+  text.split("\n").forEach(par=>{
+    const words=par.split(" ");let line="";
+    words.forEach(w=>{
+      const t=line+" "+w;
+      if(ctx.measureText(t).width>maxW&&line){lines.push(line);line=w;}
+      else line=t;
+    });
+    lines.push(line);
+  });
+  lines.slice(0,12).forEach((l,i)=>ctx.fillText(l.trim(),x,y+i*lh));
+}
+document.getElementById('occasion').addEventListener('change',()=>generate(false));
+document.getElementById('style').addEventListener('change',()=>generate(false));
+document.getElementById('name').addEventListener('input',()=>generate(false));
+buildChips();
+generate(false);
+</script>
+</body>
+</html>
